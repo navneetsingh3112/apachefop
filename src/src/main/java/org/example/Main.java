@@ -18,7 +18,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Log font file access
-            File fontFile = new File("/home/varun/Documents/Git_Repo/apachefop/src/src/main/resources/fonts/Latha.ttf");
+            //     File fontFile = new File("/home/varun/Documents/Git_Repo/apachefop/src/src/main/resources/fonts/Latha.ttf");
+            File fontFile = new File("/home/varun/Documents/Git_Repo/apachefop/src/src/main/resources/fonts/Mangal Regular.ttf");
+
             if (fontFile.exists() && fontFile.canRead()) {
                 LOGGER.info("Font file found and readable: " + fontFile.getAbsolutePath());
             } else {
@@ -36,10 +38,10 @@ public class Main {
 
             // Setup Transformer
             TransformerFactory factory = TransformerFactory.newInstance();
-            Transformer transformer = factory.newTransformer(new StreamSource(new File("src/src/main/resources/stylesheet.xsl")));
+            Transformer transformer = factory.newTransformer(new StreamSource(new File("src/src/main/resources/stylesheet_Hindi.xsl")));
 
             // Setup input for XSLT transformation
-            StreamSource src = new StreamSource(new File("src/src/main/resources/input.xml"));
+            StreamSource src = new StreamSource(new File("/home/varun/Documents/Git_Repo/apachefop/src/src/main/resources/input_HIndi.xml"));
 
             // Resulting SAX events (the generated FO) must be piped through to FOP
             SAXResult res = new SAXResult(fop.getDefaultHandler());

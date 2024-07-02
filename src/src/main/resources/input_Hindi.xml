@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoanCardFactSheet>
+    <BranchDetails>
+        <BranchCode>12345</BranchCode><BranchName>बेलंदुर</BranchName>
+        <BranchAddress>123 मुख्य सड़क, शहर, राज्य, पिनकोड</BranchAddress>
+        <RegisteredOffice>456 कॉर्पोरेट एवेन्यू, शहर, राज्य, पिनकोड</RegisteredOffice>
+        <GSTRegn>12ABCDE1234F1Z5</GSTRegn>
+        <CIN>L12345ABCDE67890</CIN>
+        <PAN>ABCDE1234F</PAN>
+    </BranchDetails>
+    <CustomerPhoto>
+        <Photo>src/src/main/resources/passport.jpeg</Photo>
+    </CustomerPhoto>
+    <CustomerDetails>
+        <CustomerName>जॉन डो</CustomerName><CustomerID>10001</CustomerID>
+        <LoanAccount>LA10001</LoanAccount>
+        <GroupName>ग्रुप ए</GroupName>
+        <Product>व्यक्तिगत ऋण</Product>
+        <HusbandName>जेन डो</HusbandName>
+        <CustomerAddress>789 आवासीय रोड, शहर, राज्य, पिनकोड</CustomerAddress>
+        <DisbursedDate>2023-01-15</DisbursedDate>
+        <LoanAmount>50000</LoanAmount>
+        <TotalInterestCharge>5000</TotalInterestCharge>
+        <OtherUpfrontCharges>200</OtherUpfrontCharges>
+        <ProcessingFees>300</ProcessingFees>
+        <InsuranceAmount>1000</InsuranceAmount>
+        <OtherCharges>100</OtherCharges>
+        <NetDisbursedAmount>48500</NetDisbursedAmount>
+        <TotalAmountToBePaid>55000</TotalAmountToBePaid>
+        <AnnualizedInterestRate>12%</AnnualizedInterestRate>
+        <RateOfInterest>1%</RateOfInterest>
+        <MobileNo>9876543210</MobileNo>
+        <FatherName>माइकल डो</FatherName>
+        <CoApplicantName>जेन डो</CoApplicantName>
+        <CentrePlace>समुदाय केंद्र, शहर</CentrePlace>
+        <LoanTerm>24 महीने</LoanTerm>
+        <RepaymentFrequency>मासिक</RepaymentFrequency>
+        <NumberOfInstallments>24</NumberOfInstallments>
+        <RepaymentDate>2023-02-15</RepaymentDate>
+        <RepaymentAmount>2292</RepaymentAmount>
+        <LendingType>सुरक्षित</LendingType>
+        <LoanCycle>1</LoanCycle>
+        <BankAccountNo>1234567890</BankAccountNo>
+        <Purpose>घर की मरम्मत</Purpose>
+        <BeneficiaryAccountName>जॉन डो</BeneficiaryAccountName>
+        <BankName>बैंक</BankName>
+        <NetoffAccountAmount>0</NetoffAccountAmount>
+    </CustomerDetails>
+    <Installments>
+        <Installment>
+            <InstNo>1</InstNo>
+            <RepaymentDate>2023-02-15</RepaymentDate>
+            <OutstandingPrincipal>50000</OutstandingPrincipal>
+            <Principal>2083</Principal>
+            <Interest>209</Interest>
+            <InstAmount>2292</InstAmount>
+            <PaidStatus>भुगतान किया गया</PaidStatus>
+            <AmountCollected>2292</AmountCollected>
+            <AmountCollectedOn>2023-02-15</AmountCollectedOn>
+            <EmpCode>E123</EmpCode>
+            <EmpSignature>सौमेन मन्ना</EmpSignature>
+        </Installment>
+        <!-- Additional Installments can be added here -->
+    </Installments>
+    <ProcessingFeeAndStampDuty>
+        <TotalProcessingFee>300</TotalProcessingFee>
+        <StampDuty>50</StampDuty>
+        <ContingentCharges>100</ContingentCharges>
+        <RepaymentOfLoan>0</RepaymentOfLoan>
+        <PenalCharges>0</PenalCharges>
+        <OtherCharges>100</OtherCharges>
+    </ProcessingFeeAndStampDuty>
+    <InsuranceDetails>
+        <NameOfInsured>जॉन डो</NameOfInsured>
+        <NameOfNominee>जेन डो</NameOfNominee>
+        <RelationshipWithBorrower>जीवनसाथी</RelationshipWithBorrower>
+        <AgeOfInsured>35</AgeOfInsured>
+        <SumAssured>50000</SumAssured>
+        <InsurancePremium>1000</InsurancePremium>
+        <InsuranceStartDate>2023-01-15</InsuranceStartDate>
+        <InsuranceEndDate>2024-01-15</InsuranceEndDate>
+    </InsuranceDetails>
+    <KeyTermsAndConditions>
+        <Condition>नियमित समूह बैठकें आयोजित करना</Condition>
+        <Condition>सदस्य की उपस्थिति और भागीदारी 100% होनी चाहिए</Condition>
+        <Condition>नियमित मासिक बचत होनी चाहिए</Condition>
+        <Condition>सभी बचत आंतरिक ऋणों में परिवर्तित होनी चाहिए और कोई भी आईडल फंड नहीं होना चाहिए</Condition>
+        <Condition>ऋण चुकौती दोनों आंतरिक और बैंक ऋण 100% और समय पर होनी चाहिए</Condition>
+        <Condition>पुस्तक और रिकॉर्ड का उचित रखरखाव और नियमित अद्यतन</Condition>
+        <Condition>समूह को डिफ़ॉल्ट/अनियमित सदस्यों पर दबाव बनाना चाहिए</Condition>
+        <Condition>अच्छी नेतृत्व क्षमता, उत्साही और अनुशासित सदस्य अच्छे टीम भावना के साथ</Condition>
+        <Condition>सभी सदस्यों के बीच सहयोग और एकता</Condition>
+        <Condition>बैंक कर्मचारियों के आचरण के लिए जिम्मेदार है</Condition>
+    </KeyTermsAndConditions>
+    <GrievanceRedressal>
+        <NodalOfficerName>श्री स्मिथ</NodalOfficerName>
+        <NodalOfficerContactNo>1234567890</NodalOfficerContactNo>
+    </GrievanceRedressal>
+</LoanCardFactSheet>

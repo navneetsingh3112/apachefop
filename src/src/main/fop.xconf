@@ -8,6 +8,12 @@
                     <font-triplet name="Latha" style="normal" weight="bold"/>
                     <font-triplet name="Latha" style="italic" weight="bold"/>
                 </font>
+                <font embed-url="/home/varun/Documents/Git_Repo/apachefop/src/src/main/resources/fonts/Mangal Regular.ttf" kerning="yes">
+                    <font-triplet name="Mangal" style="normal" weight="normal"/>
+                    <font-triplet name="Mangal" style="italic" weight="normal"/>
+                    <font-triplet name="Mangal" style="normal" weight="bold"/>
+                    <font-triplet name="Mangal" style="italic" weight="bold"/>
+                </font>
             </fonts>
         </renderer>
     </renderers>
