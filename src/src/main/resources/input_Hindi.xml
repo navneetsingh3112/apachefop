@@ -54,7 +54,7 @@
             <Principal>2083</Principal>
             <Interest>209</Interest>
             <InstAmount>2292</InstAmount>
-            <PaidStatus>भुगतान किया गया</PaidStatus>
+            <PaidStatus>Paid</PaidStatus>
             <AmountCollected>2292</AmountCollected>
             <AmountCollectedOn>2023-02-15</AmountCollectedOn>
             <EmpCode>E123</EmpCode>
